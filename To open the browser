@@ -1,0 +1,24 @@
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+
+public class sel_into {
+ public static void main(String[] args) {
+  WebDriver driver = new ChromeDriver();
+  driver.get("https://www.oracle.com/java/technologies/downloads/#jdk21-windows");
+  System.out.println(driver.getTitle();
+  System.out.println(driver.getCurrentUrl());
+  System.setProperty("webdriver.chrome.driver", "C:\\Users\\Arbaz S\\Documents\\chrome-headless-shell.exe");
+  driver.quit();
+	 
+	 
+ System.setProperty("webdriver.edge.driver", "C:/Users/Arbaz S/Downloads/edgedriver_win64/msedgedriver.exe");
+	 WebDriver driver = new EdgeDriver();
+	 driver.get("https://www.oracle.com/java/technologies/downloads/#jdk21-windows");
+	 System.out.println(driver.getTitle());
+	 System.out.println(driver.getCurrentUrl());
+	 driver.quit();
+	  
+	
+ }
+}
