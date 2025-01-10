@@ -1,0 +1,17 @@
+public class Methoddemo {
+
+	public static void main(String[] args) {
+	
+
+//		Methods m = new Methods();
+		getdata1();
+	 
+	}
+	public static String getdata1()
+	{
+		System.out.println("hello world how everything going on");
+		return null;
+		
+
+	}
+}m
